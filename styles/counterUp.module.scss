@@ -1,0 +1,86 @@
+.counterUpArea {
+    background: url('../public/icons/counter-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.counterBg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.singleCounter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.counterNumber {
+    color: var(--gray-white, #fff);
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 94px;
+    letter-spacing: 1.08px;
+}
+
+.counterCategory {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+/* Responsive CSS Start */
+@media screen and (max-width: 1600px) {
+}
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1366px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+    .counterNumber {
+        font-size: 60px;
+        line-height: 85px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .counterCategory {
+        padding: 40px 20px !important;
+    }
+
+    .singleCounter {
+        padding: 0;
+    }
+    .counterUpArea {
+        padding: 40px 0;
+    }
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 360px) {
+}
+/* Responsive CSS End */

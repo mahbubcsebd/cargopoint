@@ -1,0 +1,116 @@
+.howItWorksArea {
+    background: url('../public/images/htw-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+
+    .textWhite {
+        color: #fff !important;
+    }
+}
+
+.singleCounterBox h2 {
+    color: var(--gray-white, #fff);
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.72px;
+}
+
+.singleCounterBox p {
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+}
+
+.counterBoxWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.singleCounterBox {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 12px;
+    border-top: 1px solid #ff5042;
+}
+
+.singleCounterBox:last-child {
+    border-bottom: 1px solid #ff5042;
+}
+
+.singleCounterBox:nth-child(3) {
+    border-bottom: 1px solid #ff5042;
+    border-right: 1px solid #ff5042;
+}
+
+.singleCounterBox:nth-child(1) {
+    border-right: 1px solid #ff5042;
+}
+
+.singleWork {
+    margin-bottom: 50px;
+
+    h3 {
+        color: var(--primary-200, #fff6f6);
+
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0.45px;
+        margin-bottom: 12px;
+    }
+
+    p {
+        color: var(--primary-300, #ffeeec);
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
+}
+
+/* Responsive CSS Start */
+@media screen and (max-width: 1600px) {
+}
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1366px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 575px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 360px) {
+}
+/* Responsive CSS End */

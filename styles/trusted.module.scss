@@ -1,0 +1,59 @@
+.gService {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    gap: 12px;
+
+    img {
+        margin-top: 10px;
+        width: 40px;
+        height: 24px;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .gServiceContent {
+        h4 {
+            color: var(--gray-900, #140a09);
+            font-size: 36px;
+
+            font-style: normal;
+            font-weight: 600;
+            line-height: 36px;
+            letter-spacing: 0.54px;
+            margin-bottom: 12px;
+        }
+    }
+}
+
+.trustedImgBox img {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+/* Responsive CSS Start */
+@media screen and (max-width: 1600px) {
+}
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1366px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 575px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 360px) {
+}
+/* Responsive CSS End */

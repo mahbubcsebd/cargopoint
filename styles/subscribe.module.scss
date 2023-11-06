@@ -1,0 +1,157 @@
+.subscribe {
+    position: relative;
+    z-index: 9;
+}
+
+.subscibeAreaBox {
+    position: relative;
+    z-index: 9;
+
+    .subscribeBg {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+
+    .subscribeCat {
+        position: absolute;
+        content: '';
+        top: 50%;
+        right: 60px;
+        z-index: 9;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+    }
+
+    .subscribeBox {
+        position: relative;
+        width: 100%;
+        height: 280px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+        align-items: flex-start !important;
+        padding: 20px;
+        margin-bottom: -135px;
+        z-index: 3;
+
+        .subscribeContent {
+            -webkit-box-pack: start;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+            position: relative;
+            z-index: 1;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            gap: 18px;
+            padding: 0 20px;
+
+            h2 {
+                text-align: left !important;
+                color: #fff;
+                font-size: 36px;
+
+                font-style: normal;
+                font-weight: 600;
+                line-height: 54px;
+                letter-spacing: 0.54px;
+            }
+
+            .subscribeFormBox {
+                width: 408px;
+                position: relative;
+
+                input {
+                    height: 100%;
+                    border-radius: 0;
+                    background: var(--primary-300, #ffeeec);
+                    padding: 20px 30px;
+                }
+
+                button {
+                    position: absolute;
+                    right: 0px;
+                    top: 0px;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+/* Responsive CSS Start */
+@media screen and (max-width: 1600px) {
+}
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1366px) {
+}
+@media screen and (max-width: 1200px) {
+    .subscibeAreaBox {
+        .subscribeCat {
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 992px) {
+    .subscribeContent {
+        h2 {
+            font-size: 34px !important;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .subscribeFormBox {
+        width: 90% !important;
+    }
+
+    .subscribeContent {
+        padding: 0 !important;
+    }
+
+    .subscribeContent {
+        h2 {
+            font-size: 32px !important;
+        }
+    }
+}
+@media screen and (max-width: 575px) {
+    .subscribeFormBox {
+        width: 100% !important;
+    }
+
+    .subscribeContent {
+        h2 {
+            font-size: 30px !important;
+            line-height: 40px !important;
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 360px) {
+}
+/* Responsive CSS End */

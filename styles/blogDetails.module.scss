@@ -1,0 +1,353 @@
+.bdTrackCollection {
+    li {
+        margin-bottom: 24px;
+        padding-left: 24px;
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: '';
+            width: 10px;
+            height: 10px;
+            background: #ff5042;
+            top: 12px;
+            left: 0;
+        }
+
+        .trackTitle {
+            color: var(--gray-900, #140a09);
+            font-size: 36px;
+
+            font-style: normal;
+            font-weight: 600;
+            line-height: 36px;
+            letter-spacing: 0.54px;
+            margin-bottom: 12px;
+        }
+    }
+}
+
+.bdTrackCollection li .textBold {
+    color: #140a09;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 24px 0;
+}
+
+.blogDetailsTop {
+    margin-bottom: 30px;
+}
+
+.bdPost {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 8px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.bdPostDesc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 12px;
+}
+
+.bdPost p {
+    color: #140a09;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.bdContentTitle {
+    color: var(--neutrals-2, #23262f);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.54px;
+    margin-bottom: 18px;
+}
+
+.blogDetailsContent .text {
+    color: #433b3a;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.bdsTitle {
+    color: #23262f;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.36px;
+    margin-bottom: 12px;
+}
+
+.bdsText {
+    color: var(--gray-700, #433b3a);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.bdSocials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.bdSocialCollection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.bdSocialCollection li a {
+    border-radius: 40px;
+    border: 1px solid var(--primary-300, #ffeeec);
+    background: var(--primary-200, #fff6f6);
+    width: 45px;
+    height: 45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #ff5042;
+}
+
+.bdSocials p {
+    color: #140a09;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+    letter-spacing: 0.45px;
+}
+
+.formTopTitle {
+    color: #23262f;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.54px;
+    margin-bottom: 8px;
+}
+
+.formTopText {
+    color: var(--neutrals-4, #777e90);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.formTitle2 {
+    margin-bottom: 24px;
+}
+
+.bdSinglePart {
+    margin-bottom: 18px;
+}
+
+.singleReview {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 12px;
+}
+
+.reviewImg {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.reviewTime {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.reviewTime .reviewDay {
+    color: #726c6b;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.reviewDot {
+    color: #726c6b;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.reviewerName {
+    color: var(--gray-900, #140a09);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+
+.reviewerMsg {
+    color: #433b3a;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.bdSideBox {
+    background: #fff6f6;
+    padding: 30px;
+    margin-bottom: 24px;
+}
+
+.bdSideTitle {
+    color: #0e1941;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.36px;
+    margin-bottom: 12px;
+}
+
+.bdSearch {
+    position: relative;
+}
+
+.bdSearch .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 16px 20px;
+}
+
+.catCollection li {
+    color: var(--gray-900, #0e1941);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    margin-bottom: 16px;
+    padding: 24px;
+    background: #fff;
+}
+
+.catCollection li span {
+    color: var(--gray-500, #9fa3b3);
+}
+
+.singlePbList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 8px;
+}
+
+.pbImg {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+}
+
+.pbContent .pbTag {
+    color: var(--primary-900, #ff5042);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    margin-bottom: 8px;
+}
+
+.pbTitle {
+    display: inline-block;
+    color: var(--gray-900, #061c3d);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.bdPost p svg {
+    color: #ff5042;
+}
+
+/* Responsive CSS Start */
+@media screen and (max-width: 1600px) {
+}
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1366px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 575px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 360px) {
+}
+/* Responsive CSS End */

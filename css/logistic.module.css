@@ -1,0 +1,6 @@
+.goalsCollection li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}/*# sourceMappingURL=logistic.module.css.map */

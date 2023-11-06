@@ -1,0 +1,45 @@
+/*=========================================================================================
+    Typography CSS Start
+ ==========================================================================================*/
+/* @use '../utility/index' as variable; */
+
+html,
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Syne', sans-serif;
+    color: #2f2d53;
+}
+
+a {
+    transition: 0.3s ease all;
+    -webkit-transition: 0.3s ease all;
+    -moz-transition: 0.3s ease all;
+    -ms-transition: 0.3s ease all;
+    -o-transition: 0.3s ease all;
+
+    &:hover {
+        color: v;
+        cursor: pointer;
+    }
+}
+
+p {
+    color: #433b3a;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/*=========================================================================================
+    Typography CSS End
+ ==========================================================================================*/

@@ -1,0 +1,217 @@
+.singleServices {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 12px;
+    padding: 30px;
+    border-top: 1px solid var(--primary-200, #fff6f6);
+    background: #fff;
+    -webkit-box-shadow: 0px 12px 60px 0px rgba(44, 25, 23, 0.04);
+    box-shadow: 0px 12px 60px 0px rgba(44, 25, 23, 0.04);
+
+    .servicesImgBox {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: 1px solid var(--primary-200, #fff6f6);
+        background: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            from(#fff6f6),
+            to(rgba(255, 246, 246, 0))
+        );
+        background: -o-linear-gradient(
+            top,
+            #fff6f6 0%,
+            rgba(255, 246, 246, 0) 100%
+        );
+        background: linear-gradient(
+            180deg,
+            #fff6f6 0%,
+            rgba(255, 246, 246, 0) 100%
+        );
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .servicesTitle {
+        color: var(--gray-900, #140a09);
+        font-size: 30px;
+
+        font-style: normal;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0.45px;
+    }
+
+    .servicesText {
+        color: var(--gray-700, #433b3a);
+        font-size: 18px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+}
+
+// Our Service
+.serviceImgBox {
+    display: block;
+    width: 100%;
+    height: 265px;
+    position: relative;
+    overflow: hidden;
+
+    .serviceCat {
+        position: absolute;
+        bottom: 25px;
+        left: 25px;
+        background: #fff;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .serviceImg {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+}
+
+.serviceContent {
+    padding: 24px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 12px;
+
+    .serviceTitle {
+        display: inline-block;
+        color: var(--gray-900, #140a09);
+        font-size: 30px;
+
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0.45px;
+        &:hover {
+            color: #000;
+        }
+    }
+
+    .servicesText {
+        overflow: hidden;
+        -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        min-height: 65px;
+    }
+
+    .serviceDate {
+        color: var(--gray-900, #061c3d);
+        font-size: 14px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+    }
+}
+
+// Services Area
+.singleServiceArea {
+    height: 210px;
+    overflow: hidden;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    .serviceAreaTitle {
+        color: var(--gray-900, #140a09);
+
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36px;
+        letter-spacing: 0.36px;
+        background: #fff;
+        padding: 12px 20px;
+        width: 92%;
+        text-align: center;
+        position: absolute;
+        content: '';
+        left: 50%;
+        bottom: 12px;
+        -webkit-transform: translate(-50%, 0px);
+        -ms-transform: translate(-50%, 0px);
+        transform: translate(-50%, 0px);
+    }
+}
+
+.bgLightOrange {
+    background: #fff6f6 !important;
+    .servicesImgBox {
+        background: #fff !important;
+    }
+}
+
+/* Responsive CSS Start */
+@media screen and (max-width: 1600px) {
+}
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1366px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 575px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 360px) {
+}
+/* Responsive CSS End */

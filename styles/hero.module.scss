@@ -1,0 +1,160 @@
+.hero1 {
+    position: relative;
+    padding-top: 85px;
+    overflow: hidden;
+
+    &::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: #0000006e;
+        z-index: 2;
+        top: 0;
+        left: 0;
+    }
+
+    .heroContent {
+        position: relative;
+        z-index: 3;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 575px;
+        gap: 40px;
+        padding: 0 16%;
+        margin-bottom: 100px;
+
+        h1 {
+            color: #fff;
+            text-align: center;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 78px;
+            letter-spacing: 0.9px;
+        }
+    }
+}
+
+.heroBg1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.heroBtnBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 18px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+// Hero 2
+.hero2 {
+    position: relative;
+    height: 830px;
+}
+
+.heroBg {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.heroArea {
+    height: auto;
+    position: relative;
+    z-index: 33;
+}
+
+.heroTitle2 {
+    color: var(--gray-white, #fff);
+
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: 0.78px;
+    margin-bottom: 18px;
+}
+
+.heroText2 {
+    color: var(--primary-300, #ffeeec);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+.heroArea2 {
+    height: auto;
+    position: relative;
+    z-index: 33;
+    padding-top: 170px;
+}
+
+/* Responsive CSS Start */
+@media screen and (max-width: 1600px) {
+}
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1366px) {
+    .heroContent {
+        h1 {
+            font-size: 50px !important;
+        }
+    }
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 992px) {
+    .heroContent {
+        h1 {
+            font-size: 40px !important;
+            line-height: 60px !important;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 575px) {
+    .heroContent {
+        h1 {
+            font-size: 30px !important;
+            line-height: 50px !important;
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+    .heroBtnBox {
+        gap: 12px;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 360px) {
+}
+/* Responsive CSS End */

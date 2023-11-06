@@ -1,0 +1,25 @@
+.singleChoose {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 30px;
+    background: var(--primary-200, #fff6f6);
+}
+.singleChoose .chooseImg {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.singleChoose .chooseTitle {
+    color: var(--gray-900, #140a09);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.45px;
+} /*# sourceMappingURL=choose.module.css.map */
