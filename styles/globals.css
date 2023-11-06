@@ -198,6 +198,7 @@ p {
     height: 62px;
     border-radius: 50%;
     background: #ff5042;
+    border: 1px solid #ff5042;
     display: flex;
     justify-content: center;
     align-items: center;
